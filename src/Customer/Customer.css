@@ -1,0 +1,86 @@
+.customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 50px 64px 8px;
+    gap: 6px;
+    
+    position: absolute;
+    width: 1500px;
+    height: 550px;
+    left: -1px;
+    top: 2300px;
+
+}
+.customer1{
+    font-weight: 700;
+    font-size: 10px;
+    gap: 10px;
+    padding: 95% 200px 42% 400px;
+}
+
+.customer2{
+    flex-direction: column;
+
+width: 350px;
+height: 80px;
+
+position: absolute;
+left: 45%;
+right: 300%;
+top: 110%;
+bottom: 50%;
+
+
+display: flex;
+align-items: center;
+
+color: #145021;
+font-weight: 700;
+font-size: 30px;
+}
+
+.customer3{
+    flex-direction: column;
+
+    width: 350px;
+    height: 80px;
+    
+    position: absolute;
+    left: 44.5%;
+    right: 300%;
+    top: 116%;
+    bottom: 50%;
+    
+    
+    display: flex;
+    align-items: center;
+    
+    color: #020202;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.customer4{
+    flex-direction: row;
+
+    width: 350px;
+    height: 80px;
+    
+    position: absolute;
+    left: 45%;
+    right: 300%;
+    top: 210%;
+    bottom: 50%;
+    
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+

@@ -1,0 +1,34 @@
+.main-testimonials-wrapper {
+    padding-top: 99rem;
+    width: 110rem;
+  }
+  
+  .swiper-container {
+    width: 500rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .swiper-slide {
+    display: grid;
+    text-align: center;
+    padding: 0.5rem 10rem;
+    background: #a6b0e7;
+    width: 18.75rem;
+    height: 20.75rem;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 5rem;
+    justify-self: center;
+    border-radius: 10%;
+    margin-top: 0.7rem;
+  }
+
+  .font{
+      font-size: 30px;
+  }
+  .font1{
+    font-size: 16px;
+}

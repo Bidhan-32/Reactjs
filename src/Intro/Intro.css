@@ -1,0 +1,145 @@
+.intro{
+position: absolute;
+width: 1518px;
+height: 600px;
+left: 0.1px;
+right: 80px;
+top: 100px;
+
+background: linear-gradient(111.08deg, #091E80 1.49%, #3254F1 96.65%);
+border-radius: 45px 45px 300px 45px;
+}
+
+.i-name{
+    padding: 110px 10px 0px 0.01%;
+   
+    flex-direction: column;
+
+    width: 585px;
+    height: 50px;
+    
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 40px;
+  
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+
+    }
+
+.i-naame{
+    
+    flex-direction: column;
+
+    width: 828px;
+    height: 60px;
+    
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 40px;
+  
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.i-namee{
+    width: 828px;
+    height: 10px;
+
+font-family: 'Gumela';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+padding: 4px 30px 3px 205px;
+}
+
+
+.i-nameee{
+ padding: 12px 10px 40px 205px;
+ width: 500px;
+height: 81px;
+
+font-family: 'Gumela';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 200%;
+
+
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+
+
+flex: none;
+order:0 ;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.i-buttonn{
+ box-sizing: border-box;
+
+
+
+display: flex;
+align-items: center;
+position: absolute;
+top:30%;
+bottom: 0.1%;
+left: 0;
+right: 63.5%;
+  
+margin: auto;
+
+
+width: 150px;
+height: 42px;
+
+color: #FFFFFF;
+
+background: linear-gradient(94.03deg, rgba(251, 252, 255, 0.2) 12.67%, rgba(214, 239, 248, 0.2) 63.83%);
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.13);
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.comp{
+display: flex;
+align-items: center;
+position: absolute;
+top:5%;
+bottom: 4%;
+left: 50%;
+right: 67%;
+  
+margin: auto;
+}

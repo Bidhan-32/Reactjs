@@ -1,0 +1,60 @@
+.card {
+  width: 10rem;
+  height: 14rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  width: 10rem;
+  text-align: center;
+  background: #F1F3FE;
+  border: 1px solid #F5F5F5;
+  box-shadow: 0px 2px 2px #E6E6E6;
+  border-radius: 20px;
+  padding: 0px 26px 2rem 26px;
+}
+.bidhan{
+  margin-top: 8rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+
+}
+.card span:nth-of-type(2) {
+  font-size: 12px;
+}
+.card > img {
+  height: 650px;
+  background: #091E80;
+  border-radius: 100px;
+  transform: scale(0.23);
+  margin-top: -5rem;
+}
+.c-button {
+    
+    border: none;
+    padding: 3px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #06628c;
+    width: 150px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.c-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+  .card{
+    width: auto;
+  }
+}

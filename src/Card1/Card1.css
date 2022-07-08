@@ -1,0 +1,7 @@
+  .card1{
+    position: relative;
+  }
+  .card1>* {
+    position: absolute;
+  }
+  

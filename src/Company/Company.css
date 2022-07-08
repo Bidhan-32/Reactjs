@@ -1,0 +1,8 @@
+.company{
+    margin-top: 700px;
+    position: relative;
+  }
+  .company>* {
+    position: absolute;
+  }
+  

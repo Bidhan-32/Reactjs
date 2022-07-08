@@ -1,0 +1,72 @@
+.Service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 42px 0px 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 1516px;
+    height: 159px;
+    left: 2px;
+    top: 180%;
+    
+    
+    background: #FFFFFF;
+    
+    }
+
+.i-service{
+    font-weight: 700;
+    font-size: 10px;
+    gap: 10px;
+    padding: 1% 200px 10% 100px;
+
+}
+.i-sservice{
+    padding: 1px px 20px 40px;
+    flex-direction: column;
+
+    width: 330px;
+    height: 50px;
+    
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 40px;
+
+ position: absolute;
+left: 30%;
+right: 200%;
+top: 10%;
+bottom: 50%;
+  
+    
+    display: flex;
+    align-items: center;
+    
+    color: #145021;
+
+}
+.i-sservices{
+    box-sizing: border-box;
+    width: 450px;
+    height: 50px;
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 38px 14px 38px 65px;
+gap: 1px;
+
+position: absolute;
+left: 50%;
+right: 200%;
+top: 15%;
+bottom: 50%;
+
+font-size: 14px;
+
+}

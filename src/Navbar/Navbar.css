@@ -1,0 +1,52 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    top: 0;
+  }
+  .n-left {
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .n-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .n-right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 450;
+  }
+  
+  .n-list {
+    flex: 10;
+  }
+  .n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 3rem;
+  }
+  
+  .n-list > ul >li:hover{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    color: #eb0c0c;
+  }
+  
+  .n-button {
+    flex: 2;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .n-list {
+      display: none;
+    }
+  }
